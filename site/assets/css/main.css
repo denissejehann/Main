@@ -1,0 +1,149 @@
+/**
+ - Filename: main.css
+ - Created On: July 7, 2016
+ - Version: 1
+ - Author: Your Name <your.email>
+ - Function: 
+   - This a sample template for every file we make to monitor the authors of our codes 
+   - Ex: This is the main template for the site.  
+*/
+@font-face {
+	font-family: 'Arsenal Regular';
+	src: url('../fonts/Arsenal-Regular.otf');
+}
+@font-face {
+	font-family: 'AftaSansThin Regular';
+	src: url('../fonts/AftaSansThin-Regular.otf');
+}
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+div,
+li {
+	float: left;
+}
+h1, 
+h3 {
+	font-family: Arsenal Regular;
+	letter-spacing: 1px;
+}
+header {
+	height: 125px;
+	position: relative;
+	padding: 16px 32px;
+}
+nav {
+	height: 125px;	
+}
+button {
+	width: 144px;
+	height: 36px; 
+	float: right;
+	margin: -17px 0px 0px 20px;
+	background-color: #1a325e;
+	border-color: #203189;
+	color: #ffffff
+}
+li {
+	list-style: none;
+	margin:30px 32px 0px 24px;
+	font-size: 16px;
+	font-family: AftaSansThin Regular;
+	
+}
+p {
+	font-family: Arsenal Regular;
+	font-size: 18px;
+}
+.banner__container{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+	margin-top: -15px;
+}
+.banner__title{
+	color: #ffffff;
+	padding:32px 0px 0px 48px;
+	width: 324px;
+}
+.banner__subtitle{
+	color: #ffffff;
+	margin-top: 600px;
+	float: right;
+	width: 216px;
+}
+.container__about-us{
+	background-color: #ffffff;
+	width: 100%;
+	height:440px;
+}
+.container__advantage{
+	background-color: #1a325e;
+	width:100%;
+	height:330px;
+}
+.container__latest{
+	background-color: #ffffff;
+	width: 100%;
+	height: 770px;
+}
+.container__contact-us{
+	background-color: #1a325e;
+	width: 100%;
+	height: 610px;
+}
+.container__social-media{
+	background-color: #c0c4c3;
+	width: 100%;
+	height: 140px;
+}
+.container__advantage-image{
+	width: 30%;
+}
+.header__logo-container{
+	width: 50%;
+}
+.header__logo {
+	width: 216px;
+	height: 90px;
+}
+.image__advantage{
+	width: 234px;
+	height: 198px;
+	border-radius: 50%;
+	border: 3px solid #ffffff;
+	margin: 60px 32px 32px 60px;
+}
+.text__about-us{
+	color: #000000;
+	padding: 0px 0px 0px 0px;
+	width: 30%;
+    padding: 60px 32px 32px 32px;
+}
+.text__about-us-sub{
+	color: #000000;
+	width: 70%;
+	height: 504px;
+	text-align: justify !important;
+	padding: 60px 32px 32px 32px;
+	line-height: 24px;
+}
+.text__advantage{
+	color: #ffffff;
+	width: 70%;
+	padding: 38px 32px 32px 32px;
+	text-align: justify;
+}
+.footer__logo {
+	
+	width: 150px;
+	margin: 0px 0px 0px 0px;
+}
+.branding__container {
+	margn: 0px 0px 0px 0px;
+}
